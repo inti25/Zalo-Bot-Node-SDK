@@ -1,0 +1,37 @@
+{
+  "name": "zalo-bot-node-sdk",
+  "version": "1.0.0",
+  "description": "A TypeScript SDK for the Zalo Bot API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "ts-node example/basic.ts",
+    "build": "tsc --sourceMap false",
+    "prepublishOnly": "npm run build",
+    "example": "ts-node example/basic.ts"
+  },
+  "keywords": [
+    "zalo",
+    "bot",
+    "zalo-bot",
+    "chatbot",
+    "api",
+    "sdk",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

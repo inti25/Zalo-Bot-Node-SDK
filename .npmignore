@@ -1,0 +1,10 @@
+# Exclude source & dev files from the published package
+src/
+example/
+*.ts
+!dist/
+tsconfig.json
+.env
+.env.*
+node_modules/
+*.log
