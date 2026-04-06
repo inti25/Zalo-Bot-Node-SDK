@@ -23,7 +23,15 @@
     "sdk",
     "typescript"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inti25/Zalo-Bot-Node-SDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inti25/Zalo-Bot-Node-SDK/issues"
+  },
+  "homepage": "https://github.com/inti25/Zalo-Bot-Node-SDK#readme",
+  "author": "inti25",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8"
