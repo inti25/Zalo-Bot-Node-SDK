@@ -1,5 +1,5 @@
 {
-  "name": "zalo-bot-node-sdk",
+  "name": "@inti25/zalo-bot-node-sdk",
   "version": "1.0.2",
   "description": "A TypeScript SDK for the Zalo Bot API",
   "main": "dist/index.js",
